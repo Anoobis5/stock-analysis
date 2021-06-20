@@ -59,7 +59,7 @@ Looking at our datasets, the best stocks for Steve's parents to invest in across
 ![Refactored_Code_Timer](https://user-images.githubusercontent.com/84881187/122672433-7c448980-d199-11eb-8285-b989a7e3c93e.PNG)
 
 
-Looking at the times, the refactored code took a little bit longer to analyze than the original data. This is because now our macro is analyzing data across all of the Stock Market Database tickers, as opposed to just data for DQ. This means there are more variables and more memory is needed to process our analysis. We can conclude that as more data, across more years are added, the datasets will take longer to analyze and populate.
+Looking at the times, the refactored code took a little bit longer to analyze than the original data. This is because now our macro is analyzing data across all of the Stock Market Database tickers, as opposed to just data for DQ. This means there are more variables and more memory is needed to process our analysis. We can conclude that as more data, across more years are added, the datasets will potentially take longer to analyze and populate. 
 
 
 ## Summary
