@@ -12,32 +12,27 @@ Some advantages and disadvantages of refactoring code are:
 
 You need to perform code refactoring in small steps. Make tiny changes in your program, each of the small changes makes your code slightly better and leaves the application in a working state.
 
-#### Disadvantages:
-
-*A long procedure may contain the same line of code in several locations, you can change the logic to eliminate the duplicate lines.
-*A logical structure may be duplicated in two or more procedures (possibly via copy & paste coding). When detected, this logic is best moved to a new function and called from the other functions.
-*A complex unstructured code is usually best to split in several functions.
-Refactoring process can affect the testing outcomes.
-
 #### Advantages:
 
-*Logical errors easily appear in well structure code that contains nested conditionals and loops.
-In our case, using Excel flow displays program logic in a more comprehensible manner, not tied to the order that the underlying code is written.
-VBA interpretation (Excel) of code can reveal patterns that are not easy to see in the source.
 *Refactoring pre-existing code allows us to improve or update the code without chaning, or even improving the efficacy, of the sub-routine.
-Now, let's think about something, What happens after a couple of days or months yo need to troubleshoot your code? Is it complicated? Is it hard to understand? If yes then definitely you didn’t pay attention to improve your code or to restructure your code.
+*By refactoring code, we can improve it's readability, making it easier to understand. If someone else needs to use our code in the future, or if we need to come back to it months later, having it refactored to be easy to undertand will allow us to make any needed changes with ease.
+*Refactoring code allows us to find and fix any bugs. While a macro may be running correctly, there may be a line of code that could be refactored to more efficiently account for future variables.
 
-We need to consider the code refactoring process as cleaning up the orderly house. Unnecessary clutter in a home can create a chaotic and stressful environment. - The same goes for written code.
+#### Disadvantages:
 
-A clean and well-organized code is always easy to change, easy to understand, and easy to maintain. You can avoid facing difficulty later if you pay attention to the code refactoring process earlier.
-
+*Refactoring can affect the intended outcomes of an analysis.
+*Refacroting can be time consuming, and lead to creating more problems than they solve. While we may be aiming to have a code become more efficeint in analyzing a specific data trend, we may destabalize the macro's complex coding sets.
 
 ## Results
 
-verview of Project: Explain the purpose of this analysis.
 Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
-Summary: In a summary statement, address the following questions.
+
+
+## Conclusion Summary: 
+
+In a summary statement, address the following questions.
 What are the advantages or disadvantages of refactoring code?
 How do these pros and cons apply to refactoring the original VBA script?
 
 
+A long procedure may contain the same line of code in several locations, you can change the logic to eliminate the duplicate lines.
