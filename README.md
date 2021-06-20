@@ -21,6 +21,15 @@ Knowing this, Steve requested help identifying which 'green stocks' his parents 
 
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/84881187/122668902-71cdc400-d188-11eb-8af7-1e7870d5db63.PNG)
 
+Looking at our datasets, the best stocks for Steve's parents to invest in across 2017-2018 would be ENPH and RUN for their growth. We also examined how long it takes both the original macro, and the refactored macro to analyze the data:
+
+Original vs Refactored Time for 2018 Data
+![2018_Original Time](https://user-images.githubusercontent.com/84881187/122669627-45b44200-d18c-11eb-9e33-2889dfc71f3b.PNG)
+![2018_Refactored_Time](https://user-images.githubusercontent.com/84881187/122669632-49e05f80-d18c-11eb-8ce8-1311f8233151.PNG)
+
+Original vs. Refactored Time for 2017 Data
+![2017_Original Time](https://user-images.githubusercontent.com/84881187/122669654-62507a00-d18c-11eb-8feb-610e4fbcd7b9.PNG)
+![2017_Refactored_Time](https://user-images.githubusercontent.com/84881187/122669661-654b6a80-d18c-11eb-81b0-2f217c16ac76.PNG)
 
 
 ## Results
