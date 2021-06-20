@@ -6,13 +6,20 @@ An analysis of ' green' stocks for Steve
 ## Purpose
 Steve's parents want to invest in 'green' stocks. Our original macro allowed us to analyze if Steve's parents' choice to invest in DAQO green stocks was in their best interest. After determining that DQ was not the best stock, we refactored the code to analyze a larger amount of stocks, with the option to select and compare the stocks trend over years. This code will hopefully guide Steve and his parents into which 'green stocks' are best for them to invest in. We will also determing whether the refactored VBA code will run data faster, and if it is more efficient than the original VBA code.
 
- Finally, we just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
+Finally, we just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
 
 ## Summary of Analysis
 
 Our original analysis of the the DQ ticker's stock showed that DQ's stock dropped 63% in the past year, as shown in the phot below:
 
+![DQ Ticker](https://user-images.githubusercontent.com/84881187/122668503-61b4e500-d186-11eb-95f8-27b7f88e9587.PNG)
 
+Knowing this, Steve requested help identifying which 'green stocks' his parents should invest their money in. We refactored our original code to parse through the Stock Market Database, identify the Green Stocks, and total their volume. This would allow us to analyze the data, and identify the best stocks to invest in. See the tables below:
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/84881187/122668899-6aa6b600-d188-11eb-99a2-1bee56b109ec.PNG)
+
+
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/84881187/122668902-71cdc400-d188-11eb-8af7-1e7870d5db63.PNG)
 
 
 
