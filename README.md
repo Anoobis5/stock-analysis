@@ -8,7 +8,7 @@ Steve's parents want to invest in 'green' stocks. Our original macro allowed us 
 
 Finally, we just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
 
-## Summary of Analysis
+## Results of Analysis
 
 Our original analysis of the the DQ ticker's stock showed that DQ's stock dropped 63% in the past year, as shown in the phot below:
 
@@ -23,22 +23,21 @@ Knowing this, Steve requested help identifying which 'green stocks' his parents 
 
 Looking at our datasets, the best stocks for Steve's parents to invest in across 2017-2018 would be ENPH and RUN for their growth. We also examined how long it takes both the original macro, and the refactored macro to analyze the data:
 
-Original vs Refactored Time for 2018 Data
+#### **[Original vs Refactored Time for 2018 Data]**
+
 ![2018_Original Time](https://user-images.githubusercontent.com/84881187/122669627-45b44200-d18c-11eb-9e33-2889dfc71f3b.PNG)
 ![2018_Refactored_Time](https://user-images.githubusercontent.com/84881187/122669632-49e05f80-d18c-11eb-8ce8-1311f8233151.PNG)
 
-Original vs. Refactored Time for 2017 Data
+
+#### **[Original vs. Refactored Time for 2017 Data]**
+
 ![2017_Original Time](https://user-images.githubusercontent.com/84881187/122669654-62507a00-d18c-11eb-8feb-610e4fbcd7b9.PNG)
 ![2017_Refactored_Time](https://user-images.githubusercontent.com/84881187/122669661-654b6a80-d18c-11eb-81b0-2f217c16ac76.PNG)
 
-
-## Results
-
-Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
-
-[the refactored time took marginally longer. More data to parse through, more memory used]
+Looking at the times, the refactored code took a little bit longer to analyze than the original data. This is because now our macro is analyzing data across all of the Stock Market Database tickers, as opposed to just data for DQ. This means there are more variables and more memory is needed to process our analysis. We can conclude that as more data, across more years are added, the datasets will take longer to analyze and populate. 
 
 
+## Summary
 
 Some advantages and disadvantages of refactoring code are:
 
