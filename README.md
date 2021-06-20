@@ -70,21 +70,21 @@ While refacorting our VBA code greatly helped Steve and his parents, some advant
 
 #### Advantages:
 
-*Refactoring pre-existing code allows us to improve or update the code without chaning, or even improving the efficacy, of the sub-routine.
-*By refactoring code, we can improve it's readability, making it easier to understand. If someone else needs to use our code in the future, or if we need to come back to it months later, having it refactored to be easy to undertand will allow us to make any needed changes with ease.
-*Refactoring code allows us to find and fix any bugs. While a macro may be running correctly, there may be a line of code that could be refactored to more efficiently account for future variables.
+* Refactoring pre-existing code allows us to improve or update the code without chaning, or even improving the efficacy of the sub-routine.
+* By refactoring code, we can improve it's readability, making it easier to understand. A long chain of code can contain lines that may produce duplicate functions in multiple locations, we can improve the readability and efficiency of our code. If someone else needs to use our code in the future, or if we need to come back to it months later, having it refactored to be easy to undertand will allow us to make any needed changes with ease.
+* Refactoring code allows us to find and fix any bugs. While a macro may be running correctly, there may be a line of code that could be refactored to more efficiently account for future variables.
 
 #### Disadvantages:
 
-*Refactoring can affect the intended outcomes of an analysis.
-*Refacroting can be time consuming, and lead to creating more problems than they solve. While we may be aiming to have a code become more efficeint in analyzing a specific data trend, we may destabalize the macro's complex coding sets.
+* Refactoring can affect the intended outcomes of an analysis.
+* Refactoring can be time consuming, and lead to creating more problems than they solve. While we may be aiming to have a code become more efficeint in analyzing a specific data trend, we may destabalize the macro's complex coding sets.
+* While the refactored code may have been improved, future variables may need for the code to one again be reoriented with more specific, or past code lines.
 
 
 ## Conclusion Summary: 
 
-In a summary statement, address the following questions.
-What are the advantages or disadvantages of refactoring code?
 How do these pros and cons apply to refactoring the original VBA script?
 
+By refactoring our VBA script, we improved the efficacy inwhich one can directly analyze a Stock Market Database. Instead of remapping the code to analyze one ticker, the macro will sort through the Stock Market Database for marked 'green' tickers, and analyze their total volume. This gives a comprehensive and collective list of stock options for the user. The code also enables the user to specify which year of data they would like the macro to parse through. The buttons added allow the user toi Analyze, format, and clear the data to quickly produce a table of analyze stock data. The code allows for the user to add future data sets from future years of Stock Market databases, and the code will analyze that new data. This increased flexibility within the code is a valuable asset for the user to collect data from the green stock tickers presents.
 
-A long procedure may contain the same line of code in several locations, you can change the logic to eliminate the duplicate lines.
+However, there are still some limitations with our refactored code. If new stocks are added, removed, or merged, the code will have to be adjusted for the new ticker string. When refactoring the VBA script, we need to consider the functionality of the code, as well as keeping the code neat and readable. THankfully, we had a guide while refactoring th VBA script, but this did still take some time. Without an organized flow guide, the functionality and flow of the script can deter the macro from functioning properly. The readabilty and comments left on the code help with understanding the lines of code written, but if several months from now we want to make some changes or overhauls to the macro, it may be more efficient to create a new code structure. 
