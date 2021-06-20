@@ -5,11 +5,11 @@ An analysis of ' green' stocks.
   Steve really liked the workbook we prepared for him to analyze 'green' stock trends for 2017 & 2018. In this report, we refactored our subroutine so that Steve and his parents can continue to use this workbook to loop through a Stock Market Database.
 
 ## Purpose
-Steve's parents want to invest in 'green' stocks. Our original macro allowed us to analyze if Steve's parents' choice to invest in DAQO green stocks was in their best interest. After determining that DQ was not the best stock, we refactored the code to analyze a larger amount of stocks, with the option to select and compare the stocks trend over years. This code will hopefully guide Steve and his parents into which 'green stocks' are best for them to invest in. We will also determine whether the refactored VBA code is more efficient, using less memory, and makes the data more readable for the user.
+Steve's parents want to invest in 'green' stocks. Our original macro allowed us to analyze if Steve's parents' choice to invest in DAQO green stocks was in their best interest. After determining that DQ was not the best stock for them, we refactored the code to analyze a larger amount of stocks, with the option to select and compare the stocks trend over years. This code will hopefully guide Steve and his parents into which 'green stocks' are best for them to invest in. We will also determine whether the refactored VBA code is more efficient, using less memory, and makes the data more readable for the user.
 
 ## Results of Analysis
 
-Our original analysis of the the DQ ticker's stock showed that DQ's stock dropped 63% in the past year, as shown in the phot below:
+Steve asked us to analyze the volume of DQ's stock. Our original analysis of the the DQ ticker's stock showed that DQ's stock dropped 63% in the past year, as shown in the photo below:
 
 ![DQ Ticker](https://user-images.githubusercontent.com/84881187/122668503-61b4e500-d186-11eb-95f8-27b7f88e9587.PNG)
 
@@ -64,9 +64,9 @@ Looking at the times, the refactored code took a little bit longer to analyze th
 
 ## Summary
 
-Our original analysis was able to inform Steve and his family that DQ was not the best 'green stock' for them to invest in. By refactoring our Stock Market Database VBA Macro, we were able to have our code loop through all of the tickers and generate the total volumes. This gave Steve and his parents a comprehensive table of the total volumes of desireable stocks. This table gave a guide on how stocks moved between 2017-2018, and where they should invest. Our refactored code also allows for Steve, or other future users of the code to be able to introduce more datasets of data for future years of Stock Market values. 
+Our original analysis was able to inform Steve and his family that DQ was not the best 'green stock' for them to invest in. By refactoring our Stock Market Database VBA Macro, we were able to have our code loop through all of the tickers and generate the total volumes. This gave Steve and his parents a comprehensive table of the total volumes of desireable stocks. These tables gave a guide on how stocks moved between 2017-2018, and where they should invest. Our refactored code also allows for Steve, or other future users of the code to be able to introduce more datasets of data for future years of Stock Market values. 
 
-While refacorting our VBA code greatly helped Steve and his parents, some advantages and disadvantages of refactoring code are:
+While refacorting our VBA code greatly helped Steve and his parents, some advantages and disadvantages of refactoring the code are:
 
 #### Advantages:
 
@@ -76,14 +76,9 @@ While refacorting our VBA code greatly helped Steve and his parents, some advant
 
 #### Disadvantages:
 
-* Refactoring can affect the intended outcomes of an analysis.
+* Refactoring can affect the intended outcomes of an analysis. A script may have been working perfectly fine prior to refactoring, and changing the code may affect its core function structure.
 * Refactoring can be time consuming, and lead to creating more problems than they solve. While we may be aiming to have a code become more efficeint in analyzing a specific data trend, we may destabalize the macro's complex coding sets.
 * While the refactored code may have been improved, future variables may need for the code to one again be reoriented with more specific, or past code lines.
-
-
-## Conclusion Summary: 
-
-How do these pros and cons apply to refactoring the original VBA script?
 
 By refactoring our VBA script, we improved the efficacy inwhich one can directly analyze a Stock Market Database. Instead of remapping the code to analyze one ticker, the macro will sort through the Stock Market Database for marked 'green' tickers, and analyze their total volume. This gives a comprehensive and collective list of stock options for the user. The code also enables the user to specify which year of data they would like the macro to parse through. The buttons added allow the user toi Analyze, format, and clear the data to quickly produce a table of analyze stock data. The code allows for the user to add future data sets from future years of Stock Market databases, and the code will analyze that new data. This increased flexibility within the code is a valuable asset for the user to collect data from the green stock tickers presents.
 
